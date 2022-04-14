@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - laserGunTransparent
+  - player
   - massGunCam
-  - 
+  - heldObject
   - 
   - 
   - 

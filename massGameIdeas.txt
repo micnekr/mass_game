@@ -1,0 +1,101 @@
+decals are placed too close
+
+the gun doesn't dip
+
+what to do if both laser buttons are pressed?
+
+what is the mass of the player?
+
+player speed is not constant
+-----------------------
+apply prefabs
+
+copy numbers into code
+
+set static
+
+back up
+
+bake lights
+
+look up optimisation techniques
+----------------------
+check if the player slips
+
+particle systems on hit
+
+gun moves up and down on move + camera?
+
+the button frequently moves up and down, e.g. when holding cube too low above it
+
+damage when touched by closing doors
+
+throw?
+
+set min impulse for button
+
+improve walking anim
+
+should the hit marks reset when wall breaks?
+
+give the picked object the same speed as the player?
+
+launchers?
+
+the cube rotation is still gittery af
+
+is the movement sloppy?
+
+crystal
+
+laser ray sticks to the closest target?
+
+pick up
+do something about the first stage of moving
+save velocity?
+make sure that the player is not pushed
+improve detection of obstacles
+
+all methods in fixedupdate?
+
+char controller moves dodgily
+
+dust looks dodgy
+
+laser beam always default
+
+zoom in
+
+unity shadows of the gun
+
+slice the decal into many small decals and spawn them so that they make sense in real life??
+
+sprint?
+
+do we need decals?
+
+make decals look different
+
+crosshair
+
+despawn shattered pieces?
+
+wall jumping?
+
+decals bend over the corners
+
+dust - check if hit from the bottom
+
+
+visual change in mass affected things?/UI?
+
+visually connect the button and the door
+
+048BA8(blue)
+EDAE49(yellow)
+F18805(orange)
+8EA604(lime)
+44AF69(green)
+0A2463(dark blue)
+232528(black)
+6A7078(grey1)

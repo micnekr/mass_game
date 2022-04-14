@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3894197759047956459}
-  m_Layer: 0
+  - component: {fileID: 8406944156941010023}
+  - component: {fileID: 2691784030112751474}
+  m_Layer: 10
   m_Name: massGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 22977465932187128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.417944, y: 1.636697, z: 5.962692}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1433344038486388129}
   - {fileID: 2254735548453873759}
@@ -33,6 +35,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8406944156941010023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22977465932187128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446d04548a23cfd449f0ee324ed5d374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  range: 100
+  maxMassIncrease: 10
+  maxMassDecrease: 0.1
+  massIncreaseStepPercentage: 0.3
+  tipDisplacementForward: 0.73
+  laserModeSwitchDist: 6
+  line: {fileID: 0}
+--- !u!114 &2691784030112751474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22977465932187128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b1a43989508cd84cb1330f9ab3c4e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toFollow: {fileID: 0}
+  rotationFollow: {fileID: 0}
+  othersToMove: []
+  offset: {x: 0.32, y: -0.08, z: 0.3}
+  runtimeOffset: {x: 0, y: 0, z: 0}
+  rotationOffset: {x: 6.8, y: 3.13, z: -4.78}
+  isLast: 0
 --- !u!1 &4220935505184305388
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,7 +85,7 @@ GameObject:
   - component: {fileID: 1433344038486388129}
   - component: {fileID: 3454460402683049045}
   - component: {fileID: 3416478345112524669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Clamps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +164,7 @@ GameObject:
   - component: {fileID: 4633058543002158444}
   - component: {fileID: 5390883709800901055}
   - component: {fileID: 7417617759863316069}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +243,7 @@ GameObject:
   - component: {fileID: 2254735548453873759}
   - component: {fileID: 4029451957080008695}
   - component: {fileID: 7264274142506054433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
